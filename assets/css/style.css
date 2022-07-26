@@ -1,0 +1,256 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI";
+    font-size: 15px;
+}
+/*reset css*/
+.clear {
+    clear: both;
+}
+.navbar {
+    width: 100%;
+    height: 55px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background: white;
+    border-bottom: 1px solid;
+    box-shadow: 0 3px rgb(0 0 0 / 12%);
+}
+
+.navbar ._2col {
+    display: flex;
+}
+.navbar ._2col ._1col {
+    width: 50%;
+    font-family: Verdana;
+    font-size: 15px;
+    color: black;
+    padding: 5px 10px;
+    letter-spacing: 4px;
+
+}
+.navbar ._2col ._1col.trai {
+    display: inline-block;
+}
+.navbar ._2col ._1col.trai a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    padding: 8px 16px;
+}
+.navbar ._2col ._1col.trai a:hover {
+    background: #ccc;
+}
+.navbar ._2col ._1col.trai .chu_dam {
+    display: inline-block;
+    font-weight: bold;
+
+}
+.navbar ._2col ._1col.trai .text_logo {
+    display: inline-block;
+    padding: 8px 0;
+}
+.navbar ._2col ._1col.phai {
+    text-align: right;
+}
+
+.navbar ._2col ._1col.phai ul {
+    list-style: none;
+    /*display: inline-block;*/
+}
+
+.navbar ._2col ._1col.phai ul li{
+    display: inline-block;
+    position: relative;
+}
+
+.navbar ._2col ._1col.phai ul a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    padding: 8px 16px;
+}
+.navbar ._2col ._1col.phai ul a:hover {
+    background: #ccc;
+    padding: 8px 16px;
+}
+
+/*css header*/
+.header {
+    width: 99%;
+    margin: auto;
+    position: relative;
+    margin-top: 55px;
+}
+.header img {
+    width: 100%;
+}
+.header .text_header {
+    font-family: "Segoe UI";
+    font-size: 36px;
+    color: #fff;
+    letter-spacing: 4px;
+    position: absolute;
+    top: 310px;
+    left: 550px;
+
+}
+.header .text_header b {
+    display: inline-block;
+    padding: 6px;
+    background: #000;
+}
+
+/*css container*/
+.container {
+    padding-top: 40px;
+    width: 96%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container h3 {
+    font-size: 24px;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.projects ._4col_projects {
+    width: 100%;
+    padding-top: 30px;
+    margin: auto;
+}
+
+.projects ._4col_projects ._1col_projects{
+    width: 25%;
+    box-sizing: border-box;
+    position: relative;
+    padding: 8px;
+    float: left;
+
+}
+.projects ._4col_projects ._1col_projects img{
+    width: 100%;
+}
+
+._1col_projects .text_projects {
+    font-family: "Segoe UI";
+    font-size: 16px;
+    position: absolute;
+    top: 9px;
+    left: 8px;
+    background: black;
+    color: white;
+    padding: 8px 16px;
+}
+
+.about {
+
+}
+.about .text_about {
+    margin: 10px 0;
+}
+
+.about ._4col_about {
+    width: 100%;
+    display: flex;
+}
+
+.about ._4col_about ._1col_about {
+    width: 25%;
+    padding: 8px;
+    font-family: "Segoe UI";
+    color: black;
+}
+
+.about ._4col_about ._1col_about img {
+    width: 100%;
+}
+
+._1col_about .name {
+    font-size: 24px;
+    padding: 10px 0;
+}
+._1col_about .jobs {
+    font-size: 14px;
+    color: #666;
+    padding: 10px 0;
+}
+
+._1col_about .description {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+._1col_about button {
+    width: 100%;
+    font-family: "Segoe UI";
+    font-size: 14px;
+    font-weight: 500;
+    color: black;
+    padding: 5px 0;
+}
+
+.contact {
+    width: 100%;
+}
+
+.contact .text_contact {
+    margin: 10px 0;
+}
+
+.input_contact input {
+    width: 100%;
+    padding: 5px 3px 0;
+    margin: 6px 0;
+}
+
+.input_contact button {
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    padding: 8px 8px;
+    margin: 20px 0;
+    border: none;
+    transition: 0.3s;
+
+}
+
+.input_contact button:hover {
+    color: black;
+    background: #cccccc;
+    cursor: help;
+
+}
+
+.contact img {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background: black;
+}
+
+.footer .text_footer {
+    font-family: "Segoe UI";
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+}
+.footer .text_footer a {
+    text-decoration: none;
+    color: white;
+}
